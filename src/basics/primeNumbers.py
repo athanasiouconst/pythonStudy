@@ -32,10 +32,11 @@ if(protosArithmosBoolean == True & deyterosArithmosBoolean == True):
         temp = protosArithmos
         protosArithmos = deyterosArithmos
         deyterosArithmos=temp
-    
-    for protosArithmos in range(protosArithmos, deyterosArithmos):
-        if protosArithmos%2 != 0:
-            print(protosArithmos)
+    print("Οι πρώτοι αριθμοί στο διάστημα {0} - {1} είναι, όπως παρακάτω : ".format(protosArithmos,deyterosArithmos))
+
+for protosArithmos in range(protosArithmos, deyterosArithmos):
+    if protosArithmos%2 != 0:
+        print(protosArithmos)
             
 
   
