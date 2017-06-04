@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 #input of chars
-stringText=raw_input("Παρακαλώ εισάγετε μια πρόταση : ")
+stringText=input("Παρακαλώ εισάγετε μια πρόταση : ")
 
 #length of the string 
 stringLength = len(stringText)
