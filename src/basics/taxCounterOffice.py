@@ -29,7 +29,7 @@ elif (eisodima <= mediumEisodima) :
 
 elif (eisodima <= goodEisodima) :
     diaforaEisodimatosMedium =  eisodima - mediumEisodima
-    telikosForos = mediumEisodima * 5 /100 + diaforaEisodimatosMedium* 10 / 100
+    telikosForos = elaxistoEisodima * 5 /100 + diaforaEisodimatosMedium* 10 / 100
     print("Ο φόρος που αναλογεί σε εισόδημα {0} είναι : {1} ευρώ".format(eisodima,telikosForos))
 
 elif (eisodima > goodEisodima) :
