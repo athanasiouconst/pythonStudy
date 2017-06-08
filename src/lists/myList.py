@@ -27,3 +27,9 @@ if Lista1 == Lista2:
     print("equal")
 else:
     print("unequal")
+    
+    
+    name="abcdefghijklmnop"
+
+print(name[-6:-3])
+
