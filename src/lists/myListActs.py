@@ -22,7 +22,7 @@ print(Lista2)
 for i in range(len(Lista2)):
     print(Lista2[i])
     
-List=["aa","bb","cc","c"]
+List=["href='http://www'","<a","a/>","c"]
 search = input("enter element: ")
 if search in List:
     print(List.index(search))

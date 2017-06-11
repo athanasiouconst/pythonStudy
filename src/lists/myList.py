@@ -33,3 +33,7 @@ else:
 
 print(name[-6:-3])
 
+str = '<a href="http://www.ekdd.gr/ekdda/custom/seminars/pdf/10319_2_2013.pdf" target="_blank" title="Σχετική Εγκύκλιος">ΗΛΕΚΤΡΟΝΙΚΗ ΓΡΑΜΜΑΤΕΙΑΚΗ ΥΠΟΣΤΗΡΙΞΗ</a>'
+text = str.split('</a>')
+splitText = text[0].split('">')
+print(splitText[1])
