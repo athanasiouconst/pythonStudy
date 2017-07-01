@@ -1,10 +1,14 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
 
-filename = input("δωστε όνομα αρχείου για δημιουργία : ")
+filename = "costas.txt"
 fileout = open(filename,"w")
 
-text = input("πληκτρολογήστε το περιεχόμενο και πατήστε enter : ")
+text = {"proedros":"Nikolaou", "melos1":"Petrou", "melos2":"Ioannidou"}
 
-fileout.write(text)
+textSpace=" "
+fileout.write(text["proedros"])
+fileout.write(textSpace)
+fileout.write(text["melos1"])
+fileout.write(text["melos2"])
 fileout.close()
